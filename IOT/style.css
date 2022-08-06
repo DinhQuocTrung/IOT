@@ -1,0 +1,72 @@
+/*== Import ==*/
+
+/* Bootstrap icon */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+/*== Tag ==*/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+
+ul, li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+body{
+    background-color: #fff;
+}
+
+header{
+    height: 25%;
+}
+
+header p.title{
+    background-color: lightblue;
+    padding: 10px 10%;
+    font-size: 40px;
+    font-weight: bold;
+    border-bottom-right-radius: 40%;
+}
+
+button{
+    background-color: inherit;
+    border: none;
+    width: 49.5%;
+    display: inline-block;
+}
+/*== Class ==*/
+/* Sensor */
+.sensor{
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.radar,
+.PIR{
+    /* padding: auto; */
+    padding: 10px;
+    border-radius: 15px;
+    background: linear-gradient(to bottom right,#c1e0fa,#fff);
+    margin: auto;
+    width: 500px;
+}
+
+.radar .radar-surface,
+.PIR .PIR-surface{
+    width: 100%;
+    height: 300px;
+    background-color: #000;
+}
+
+
+
+/*== Id ==*/

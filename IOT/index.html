@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
+    <title>Iot project</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- Header: Logo, name -->
+    <header>
+        <p class="title">Iot radar</p>
+    </header>
+
+    <!-- Main -->
+    <main>
+        <!-- Container -->
+        <section class="container">
+            <div class="sensor">
+                <!-- Radar -->
+                <div class="radar">
+                    <!-- Radar HUD -->
+                    <div class="radar-surface"></div>
+    
+                    <!-- Radar propertive -->
+                    <div class="radar-propertive">
+                        <p class="radar-dir">100</p>
+                        <button class="radar-change" onclick="radarLeft()">Left</button>
+                        <button class="radar-change" onclick="radarRight()">Right</button>
+                    </div>
+                </div>
+    
+                <!-- PIR -->
+                <div class="PIR">
+                    <!-- PIR HUD -->
+                    <div class="PIR-surface"></div>
+    
+                    <!-- Radar propertive -->
+                    <div class="radar-propertive">
+                        <p class="PIR-object-find">State: Nothing</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- GUI -->
+        <section class="GUI"></section>
+    </main>
+
+    <!-- Footer -->
+    <footer></footer>
+
+    <!-- Js -->
+    <script src="./app.js"></script>
+</body>
+</html>
